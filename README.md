@@ -2,11 +2,6 @@
 
 This is a fun and interactive Valentine-themed web application built with React and Vite. The app features animations, music, and a playful "Yes/No" interaction.
 
-## Features
-- **Interactive Buttons**: Choose "Yes" or "No" to see different reactions.
-- **Background Music**: Plays a romantic tune by default and switches to a celebration song when "Yes" is clicked.
-- **Floating Hearts Animation**: Adds a charming visual effect.
-- **Responsive Design**: Works well on both desktop and mobile devices.
 
 ## Live Demo
 Check out the live version of the project here: [Valentine App](https://valentine-vert-ten-21.vercel.app/)
@@ -30,10 +25,4 @@ Check out the live version of the project here: [Valentine App](https://valentin
    ```
 5. Open your browser and go to `http://localhost:5173`.
 
-## Technologies Used
-- **React**: For building the user interface.
-- **Vite**: For fast development and build tooling.
-- **Tailwind CSS**: For styling the application.
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
