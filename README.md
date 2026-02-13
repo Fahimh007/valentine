@@ -1,16 +1,39 @@
-# React + Vite
+# Valentine Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fun and interactive Valentine-themed web application built with React and Vite. The app features animations, music, and a playful "Yes/No" interaction.
 
-Currently, two official plugins are available:
+## Features
+- **Interactive Buttons**: Choose "Yes" or "No" to see different reactions.
+- **Background Music**: Plays a romantic tune by default and switches to a celebration song when "Yes" is clicked.
+- **Floating Hearts Animation**: Adds a charming visual effect.
+- **Responsive Design**: Works well on both desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+Check out the live version of the project here: [Valentine App](https://valentine-vert-ten-21.vercel.app/)
 
-## React Compiler
+## How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Fahimh007/valentine.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd valentine/v2/vdp
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and go to `http://localhost:5173`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
+- **React**: For building the user interface.
+- **Vite**: For fast development and build tooling.
+- **Tailwind CSS**: For styling the application.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+This project is open-source and available under the [MIT License](LICENSE).
